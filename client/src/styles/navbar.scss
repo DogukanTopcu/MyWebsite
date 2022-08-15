@@ -1,0 +1,36 @@
+.navbar {
+    width: 100vw;
+    background-color: #151719;
+
+    padding: 5px 20px;
+    color: #fff;
+
+
+    .navbar-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+
+        .navbar-left{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+            .navbar-burger {
+                font-size: 36px;
+                cursor: pointer;
+                margin-right: 50px;
+            }
+            img {
+                width: 90px;
+                height: 90px;
+                object-fit: cover;
+                margin: 20px 15px;
+                border-radius: 25px;
+            }
+        }
+    }
+}
