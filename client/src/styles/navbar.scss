@@ -1,8 +1,8 @@
 .navbar {
-    width: 100vw;
-    background-color: #151719;
+    max-width: 100vw;
+    background-color: #1f2028;
 
-    padding: 5px 20px;
+    padding: 5px 40px;
     color: #fff;
 
 
@@ -17,13 +17,84 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+            
 
 
             .navbar-burger {
-                font-size: 36px;
                 cursor: pointer;
+
                 margin-right: 50px;
+
+                display: flex;
+                flex-direction: column;
+
+                justify-content: center;
+
+
+
+                .burger-line {
+                    width: 30px;
+                    height: 3px;
+                    background-color: rgba(255, 255, 255, 0.705);
+
+                    margin-bottom: 5px;
+                }
             }
+            .navbar-fullName {
+                font-size: 24px;
+
+                display: flex;
+                flex-direction: row;
+
+            }
+            .navbar-fullName::before {
+                content: "<title>";
+                font-size: 14px;
+                // position: absolute;
+                font-family: 'Courier New', Courier, monospace;
+
+                color: rgba(214, 214, 214, 0.76);
+                margin-top: -20px;
+            }
+            .navbar-fullName::after {
+                content: "</title>";
+                font-size: 14px;
+                position: absolute;
+                font-family: 'Courier New', Courier, monospace;
+
+                color: rgba(214, 214, 214, 0.76);
+                margin-top: 40px;
+            }
+            
+        }
+
+
+
+        .navbar-right {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+            .navbar-links {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+
+
+
+
+                .nav-link {
+                    margin-right: 20px;
+                    cursor: pointer;
+                    font-weight: 600;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                }
+            }
+
+
             img {
                 width: 90px;
                 height: 90px;
