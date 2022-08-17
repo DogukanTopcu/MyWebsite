@@ -2,8 +2,10 @@ import React from 'react';
 import "../styles/navbar.scss";
 
 import MenuIcon from '@mui/icons-material/Menu';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigation = useNavigate();
   return (
     <div className='navbar'>
         <div className='container navbar-content'>
@@ -20,8 +22,8 @@ const Navbar = () => {
             </div>
             <div className='navbar-right'>
               <div className="navbar-links">
-                <div className='nav-link'>Blogs</div>
-                <div className='nav-link'>Portfolio</div>
+                <div onClick={() => navigation("/blogs")} className='nav-link'>Blogs</div>
+                <div onClick={() => navigation("/")} className='nav-link'>Portfolio</div>
                 <div className='nav-link'>Discord</div>
               </div>
                 <img className='my-navbar-photo' src='https://picsum.photos/200/300' />
