@@ -1,5 +1,9 @@
 .banner-content {
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 
 
     .banner-name {
@@ -51,8 +55,7 @@
     }
 
     .banner-left {
-
-
+        flex: 1;
         max-width: 700px;
         padding: 0 100px;
 
@@ -60,6 +63,22 @@
             font-family: 'Ubuntu', sans-serif;
             color: #fff;
             font-size: 36px;
+        }
+    }
+
+    .banner-right {
+        flex: 1;
+
+        img {
+            width: 300px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: 0.2s;
+            padding: 10px;
+            border: 3px solid rgba(255, 255, 255, 0);
+        }
+        img:hover {
+            border: 3px solid rgba(255, 255, 255, 1);
         }
     }
 }

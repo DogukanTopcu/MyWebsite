@@ -1,6 +1,8 @@
 import React from 'react';
 import "../../styles/banner.scss";
 
+import Me from "../../assets/images/me.jpg";
+
 const Banner = () => {
   return (
     <div className='banner'>
@@ -13,6 +15,9 @@ const Banner = () => {
 
             <div className='banner-left'>
                 <p>Minim officia pariatur culpa duis deserunt velit pariatur veniam veniam duis.</p>
+            </div>
+            <div className='banner-right'>
+                <img src={Me} className='banner-image' />
             </div>
         </div>
     </div>
