@@ -1,0 +1,19 @@
+.home {
+
+    .home-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+
+        .block {
+            cursor: pointer;
+            border: 2px solid #fff;
+            margin: 50px;
+            padding: 30px;
+            text-align: center;
+        }
+    }
+}

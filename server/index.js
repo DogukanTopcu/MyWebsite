@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 const env = dotenv.config();
 
 import blogsRouter from "./routes/Blogs.js";
+import portfolioRouter from "./routes/Blogs.js";
 
 const app = express();
 
@@ -21,4 +22,5 @@ mongoose.connect(CONNECTION, { useNewUrlParser: true, useUnifiedTopology: true }
     .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`)))
     .catch((err) => err.message);
 
-app.use("/blogs", blogsRouter)
+app.use("/blogs", blogsRouter);
+app.use("/portfolio", portfolioRouter);

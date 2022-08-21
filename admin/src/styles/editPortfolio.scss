@@ -1,0 +1,20 @@
+.editPortfolio {
+    max-width: 100vw;
+    margin: auto;
+
+
+    .editPortfolio-content {
+        display: flex;
+        justify-content: center;
+        max-width: 500px;
+
+
+
+        .edit-form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+
+}
