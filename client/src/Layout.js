@@ -4,6 +4,18 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 
 const Layout = () => {
+
+  const turnTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
+  // window.addEventListener("scroll", () => {
+  //   setScroll(window.scrollY)
+  // });
+  
   return (
     <div>
         <Navbar />

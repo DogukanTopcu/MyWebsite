@@ -1,3 +1,5 @@
+
+
 .aboutMe {
     max-width: 100vw;
     display: flex;
@@ -12,6 +14,20 @@
 
         h1 {
             font-family: 'Ubuntu', sans-serif;
+            transition: 0.3s;
+
+            span {
+                color: red;
+                transition: 0.3s;
+            }
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+
+                span {
+                    text-decoration: underline;
+                }
+            }
         }
         p {
             font-family: 'Source Code Pro', monospace;
@@ -19,3 +35,7 @@
     }
 
 }
+
+
+
+

@@ -3,7 +3,7 @@ import "../../styles/banner.scss";
 
 import Me from "../../assets/images/me.jpg";
 
-const Banner = () => {
+const Banner = ({ scrollTo }) => {
   return (
     <div className='banner'>
         <div className='container banner-content'>
@@ -16,7 +16,7 @@ const Banner = () => {
             <div className='banner-left'>
                 <p>Minim officia pariatur culpa duis deserunt velit pariatur veniam veniam duis.</p>
             </div>
-            <div className='banner-right'>
+            <div onClick={() => scrollTo("#about")} className='banner-right'>
                 <img src={Me} className='banner-image' />
             </div>
         </div>

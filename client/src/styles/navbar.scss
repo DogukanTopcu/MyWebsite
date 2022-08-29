@@ -117,3 +117,21 @@
         }
     }
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 951px) {
+    .navbar{
+        background-color: brown;
+    }
+}
+
+@media screen and (max-width: 429px) {
+    .navbar {
+        background-color: red;
+    }
+}
