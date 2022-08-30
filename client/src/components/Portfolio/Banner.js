@@ -16,8 +16,8 @@ const Banner = ({ scrollTo }) => {
             <div className='banner-left'>
                 <p>Minim officia pariatur culpa duis deserunt velit pariatur veniam veniam duis.</p>
             </div>
-            <div onClick={() => scrollTo("#about")} className='banner-right'>
-                <img src={Me} className='banner-image' />
+            <div className='banner-right'>
+                <img onClick={() => scrollTo("#about")} src={Me} className='banner-image' />
             </div>
         </div>
     </div>

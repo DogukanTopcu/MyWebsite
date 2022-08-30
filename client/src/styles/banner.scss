@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-height: 60vh;
 
 
 
@@ -79,6 +80,81 @@
         }
         img:hover {
             border: 3px solid rgba(255, 255, 255, 1);
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 951px) {
+    .banner-content {
+        .banner-name {
+            font-size: 398px;
+            margin-left: 150px;
+            margin-top: -70px;
+
+        }
+
+
+        .banner-surname {
+            font-size: 398px;
+            margin-left: 280px;
+            margin-top: 0px;
+
+        }
+
+        .banner-left {
+            max-width: 700px;
+            padding: 0 40px;
+
+            p {
+                font-size: 30px;
+            }
+        }
+
+        .banner-right {
+            img {
+                width: 250px;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 429px) {
+    .banner-content {
+        // background-color: purple;
+        .banner-name {
+            font-size: 198px;
+            margin-left: 40px;
+            margin-top: -40px;
+
+        }
+
+        .banner-surname {
+            font-size: 198px;
+            margin-left: 105px;
+            margin-top: -20px;
+
+        }
+
+        .banner-left {
+            max-width: 700px;
+            padding: 0 30px;
+
+            p {
+                font-size: 20px;
+            }
+        }
+
+        .banner-right {
+            img {
+                width: 150px;
+                padding: 5px;
+            }
         }
     }
 }

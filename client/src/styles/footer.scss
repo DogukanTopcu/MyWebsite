@@ -38,7 +38,7 @@
                 flex: 1;
                 padding: 0 50px;
             }
-            .flex-top-third {
+            .footer-top-third {
                 flex: 2;
                 padding: 0 50px;
             }
@@ -56,3 +56,138 @@
     }
 }
 
+
+
+@media screen and (max-width: 951px) {
+    .footer {
+        .footer-content {
+            padding: 70px 10px;
+
+
+            .footer-top {
+                .footer-top-first {
+                    padding: 0 25px;
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+
+
+                    .footer-socials {
+                        .footer-social-icon {
+                            font-size: 20px;
+                            cursor: pointer;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+                .footer-top-second {
+                    padding: 0 25px;
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                .footer-top-third {
+                    padding: 0 25px;
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                .footer-top-fourth {
+                    padding: 0 25px;
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+            .footer-bottom {
+                margin-top: 20px;
+                padding: 0 20px;
+                font-size: 15px;
+            }
+        }
+    }   
+}
+
+
+
+@media screen and (max-width: 429px) {
+    .footer {
+        // background-color: red;
+        .footer-content {
+            padding: 50px 10px;
+
+            .footer-top {
+                margin: 0 10px;
+                .footer-top-first {
+                    padding: 0 5px;
+                    
+                    h2 {
+                        font-size: 14px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+
+                    .footer-socials {
+                        .footer-social-icon {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                .footer-top-second {
+                    padding: 0 5px;
+                    
+                    h2 {
+                        font-size: 14px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+                .footer-top-third {
+                    padding: 0 5px;
+                    
+                    h2 {
+                        font-size: 14px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+                .footer-top-fourth {
+                    padding: 0 5px;
+                    
+                    h2 {
+                        font-size: 14px;
+                    }
+                    p {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .footer-bottom {
+                margin-top: 15px;
+                padding: 0 5px;
+                font-size: 12px;
+            }
+        }
+    }
+}
