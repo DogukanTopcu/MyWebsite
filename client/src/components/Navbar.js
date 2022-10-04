@@ -24,7 +24,7 @@ const Navbar = () => {
               <div className="navbar-links">
                 <div onClick={() => navigation("/blogs")} className='nav-link'>Blogs</div>
                 <div onClick={() => navigation("/")} className='nav-link'>Portfolio</div>
-                <div className='nav-link'>Discord</div>
+                <div onClick={() => navigation("/community")} className='nav-link'>Discord</div>
               </div>
                 <img className='my-navbar-photo' src='https://picsum.photos/200/300' />
             </div>
